@@ -240,7 +240,7 @@ Use a controlled lab environment and disposable test credentials.
 
 ## Limitations
 
--   The tool analyzes advertised management-frame information; it does
+-   The tool analyzes advertised management-frame information it does
     not perform client authentication or prove the root cause of a
     connectivity issue.
 -   Results depend on capture coverage and the frames present in the
