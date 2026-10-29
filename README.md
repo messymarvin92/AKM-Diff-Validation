@@ -137,12 +137,29 @@ Supported file extensions are `.pcap`, `.pcapng`, and `.cap`.
 6.  **Report differences.** An SSID is reported when more than one
     distinct AKM suite set was observed.
 
+The script reporting distinct AKM suites.
+
+```text
+==============================================================================
+SSIDs broadcast with DIFFERENT AKM suites: 1
+==============================================================================
+
+SSID: 'CorpWifi'  (2 different AKM sets)
+  AKM: 802.1X
+    BSSIDs (1): 9c:ef:d5:f6:30:65
+    Beacons: 73   Files: hostapd_same_ssid_lab_setup_8021x_CorpWifi.pcapng
+  AKM: PSK
+    BSSIDs (1): 9c:ef:d5:f6:94:2e
+    Beacons: 94   Files: hostapd_same_ssid_lab_setup_psk_CorpWifi.pcapng
+```
+
 The script skips hidden or null SSIDs. If no mismatches are found, it
 prints:
 
 ``` text
 No SSIDs found broadcasting different AKM suite sets.
 ```
+
 
 ## Understanding the output
 
