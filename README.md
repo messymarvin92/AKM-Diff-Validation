@@ -12,8 +12,8 @@ be included.
 ## Why this tool?
 
 Multiple access points may advertise the same SSID while advertising
-different authentication options. This can be intentional---for example,
-during a security migration---or it may indicate a configuration
+different authentication options. This can be intentional, for example,
+during a security migration or it may indicate a configuration
 inconsistency that needs investigation.
 
 SSID AKM Checker helps identify these differences from packet captures.
