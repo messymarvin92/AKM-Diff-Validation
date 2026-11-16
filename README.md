@@ -240,7 +240,7 @@ Use a controlled lab environment and disposable test credentials.
 
 ## Limitations
 
--   The tool analyzes advertised management-frame information; it does
+-   The tool analyzes advertised management-frame information it does
     not perform client authentication or prove the root cause of a
     connectivity issue.
 -   Results depend on capture coverage and the frames present in the
@@ -257,7 +257,5 @@ Capture and analyze wireless traffic only in environments where you have
 authorization. Protect packet captures and exported reports because they
 may reveal information about your wireless environment.
 
-## License
+**Author:** Don Lewis ([@messymarvin92](https://github.com/messymarvin92))
 
-No license is specified by this repository. Add a `LICENSE` file if you
-want to define how others may use, modify, and redistribute the project.
